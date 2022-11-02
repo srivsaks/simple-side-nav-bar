@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: ghostwhite;
+  height: 100vh;
+  overflow: auto;
+}
+
+.open-nav {
+  position: fixed;
+  top: 1%;
+  z-index: 0;
+  background-color: purple;
+}
+
+.side-nav-container {
+  width: 20%;
+  background-color: gold;
+  height: 100vh;
+  position: absolute;
+  max-width: 480px;
+  min-width: 320px;
+  transform: translateX(-100%);
+}
+
+.close-btn {
+  position: absolute;
+  margin-left: 8rem;
+  border: none;
+  background-color: #141414;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 5rem;
+}
+
+.nav-bar {
+  background-color: rgb(255, 2, 23);
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section {
+  padding: 0.5rem;
+  font-family: cursive;
+}
